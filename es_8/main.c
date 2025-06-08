@@ -205,11 +205,9 @@ int main() {
     
     if (passedTests == totalTests) {
         printf("🎉 TUTTI I TEST SONO PASSATI! 🎉\n");
-        printf("Ottimo lavoro, C4V4H! 🚀\n");
         return 0;
     } else {
         printf("❌ Alcuni test sono falliti.\n");
-        printf("Continua a lavorarci, C4V4H! 💪\n");
         return 1;
     }
 }
