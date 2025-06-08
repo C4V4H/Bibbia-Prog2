@@ -25,7 +25,7 @@ Have fun!
 
 
 
-[1](es_1/palindrome.c). Realizzare un implementazione ITERATIVA della seguente funzione:
+[1. Realizzare un implementazione ITERATIVA della seguente funzione:](es_1/palindrome.c)
 ```C
 /** 
  *
@@ -40,7 +40,7 @@ Have fun!
 bool isPalindrome(const char *s, int first, int last);
 ```
 
-2. Realizzare un implementazione RICORSIVA della seguente funzione:
+[2. Realizzare un implementazione RICORSIVA della seguente funzione:](es_2/palindrome.c)
 ```C
 /** 
  *
@@ -56,7 +56,7 @@ bool isPalindrome(const char *s, int first, int last);
 ```
 
 
-3. Realizzare un implementazione ITERATIVA della seguente funzione:
+[3. Realizzare un implementazione ITERATIVA della seguente funzione:](es_3/mixAlternate.c)
 ``` C
 typedef struct node IntNode, *IntList;
 struct node {
@@ -75,7 +75,7 @@ struct node {
 IntList mixAlternate(IntList *lsPtr1, IntList *lsPtr2);
 ```
 
-4. Realizzare un implementazione RICORSIVA della seguente funzione:
+[4. Realizzare un implementazione RICORSIVA della seguente funzione:](es_4/mirror.c)
 
 ```C
 typedef struct treeNode IntTreeNode, *IntTree;
@@ -105,7 +105,7 @@ struct treeNode {
 vaid mirror(IntTree tree);
 ```
 
-5. Realizzare un implementazione RICORSIVA della seguente funzione:
+[5. Realizzare un implementazione RICORSIVA della seguente funzione:](es_5/check.c)
 
 ```C
 /**
@@ -126,7 +126,7 @@ vaid mirror(IntTree tree);
 bool check(const char *s1, int n1, const char *s2, int n2);
 ```
 
-6. Realizzare un implementazione RICORSIVA della seguente funzione:
+[6. Realizzare un implementazione RICORSIVA della seguente funzione:](es_6/count.c)
 ```C
 typedef struct treeNode CharTreeNode, *CharTree;
 struct treeNode {
@@ -157,7 +157,7 @@ int count (CharTree tree, int m, int n);
 ```
 
 
-7. Realizzare un implementazione RICORSIVA della seguente funzione:
+[7. Realizzare un implementazione RICORSIVA della seguente funzione:](es_7/transfer.c)
 ```C
 typedef struct node IntNode, *IntList;
 
@@ -178,7 +178,7 @@ IntList transfer (IntList *lsPtr1, IntList ls2);
 
 ```
 
-8. Realizzare un implementazione ITERATIVA della seguente funzione:
+[8. Realizzare un implementazione ITERATIVA della seguente funzione:](es_8/merge.c)
 ```C
 typedef struct node IntNode, *IntList;
 
@@ -200,7 +200,7 @@ struct node {
 IntList merge(IntList *lsPtr1, IntList *lsPtr2);
 ```
 
-9. Realizzare un implementazione RICORSIVA della seguente funzione:
+[9. Realizzare un implementazione RICORSIVA della seguente funzione:](es_9/sort.c)
 ```C
 typedef struct treeNode Int TreeNode, *Int Tree;
 
