@@ -5,14 +5,18 @@ Test vibecoded con copilot. potrebbero esserci degli errori.
 
 # Installation
 
-`git clone https://github.com/C4V4H/Bibbia-Prog2`
+```bash
+git clone https://github.com/C4V4H/Bibbia-Prog2
+```
 
 una volta clonata la repo, spostarsi nella directory dei un esercizio, compilare il file .c con la funzione.
 
 per verificare l'esercizio eseguire:
 
-```make```
+```bash
+make
+make start
 
-```make start```
+```
 
 Have fun!
