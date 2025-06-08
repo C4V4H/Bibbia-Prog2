@@ -25,7 +25,7 @@ Have fun!
 
 
 
-1. Realizzare un implementazione ITERATIVA della seguente funzione:
+[1](es_1/palindrome.c). Realizzare un implementazione ITERATIVA della seguente funzione:
 ```C
 /** 
  *
