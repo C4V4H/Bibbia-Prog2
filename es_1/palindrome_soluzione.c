@@ -17,6 +17,19 @@ bool isPalindrome(
 		    int   first, 
 		    int   last
 ){
-  // inserire qui la soluzione
-  return false;
+
+  if (!s) return NULL;
+
+  bool result = true;
+
+  while (first <= last && result) {
+    if (s[first] != s[last])
+      result = false;
+    else {
+      first++;
+      last --;
+    }
+  }
+
+  return result;
 }
