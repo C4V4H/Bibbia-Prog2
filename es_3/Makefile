@@ -5,10 +5,10 @@
 # ==========================================
 
 # ⚙️  CONFIGURAZIONE PROGETTO - MODIFICA SOLO QUI! ⚙️
-PROJECT_NAME = palindrome
+PROJECT_NAME = mixAlternate
 TARGET = main
 MAIN_SOURCE = main.c
-EXTRA_SOURCES = palindrome.c
+EXTRA_SOURCES = mixAlternate.c
 
 # ==========================================
 # CONFIGURAZIONE AVANZATA (opzionale)
