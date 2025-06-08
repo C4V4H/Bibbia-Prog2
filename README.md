@@ -1,17 +1,18 @@
 # Bibbia-Prog2
-raccolta di esercizi di esami passati di prog2
+raccolta di esercizi divertenti di prog2
+
+Test vibecoded con copilot. potrebbero esserci degli errori.
 
 # Installation
 
 `git clone https://github.com/C4V4H/Bibbia-Prog2`
 
-dopo aver creato un file .c che implementi il .h (con lo stesso nome del .h, quindi per esempio per es_1 creare palindrome.c con l'implementazione della fun palindrome)
-eseguire:
+una volta clonata la repo, spostarsi nella directory dei un esercizio, compilare il file .c con la funzione.
 
-`cd es_1`
+per verificare l'esercizio eseguire:
 
-`make`
+```make```
 
-`make start`
+```make start```
 
 Have fun!
