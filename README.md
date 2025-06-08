@@ -37,11 +37,7 @@ Have fun!
  * 
  * @return s nell'intervallo first..last è palindroma
  ﻿*/
-bool isPalindrome(
-	const char *s, 
-		  int first, 
-		  int last
-);
+bool isPalindrome(const char *s, int first, int last);
 ```
 
 2. Realizzare un implementazione RICORSIVA della seguente funzione:
@@ -56,11 +52,7 @@ bool isPalindrome(
  * 
  * @return s nell'intervallo first..last è palindroma
  ﻿*/
-bool isPalindrome(
-	const char *s, 
-		  int first, 
-		  int last
-);
+bool isPalindrome(const char *s, int first, int last);
 ```
 
 
@@ -68,7 +60,7 @@ bool isPalindrome(
 ``` C
 typedef struct node IntNode, *IntList;
 struct node {
-	int data;
+  int data;
 	IntList next;
 }
 
@@ -80,10 +72,7 @@ struct node {
  * Ad es. date [1, 5, 9] e [0, 2, 4, 6, 8) restituisce
  * [1, 0, 5, 2, 9, 4, 6, 8].
  */
-IntList mixAlternate(
-	IntList *lsPtr1, 
-	IntList *lsPtr2
-);
+IntList mixAlternate(IntList *lsPtr1, IntList *lsPtr2);
 ```
 
 4. Realizzare un implementazione RICORSIVA della seguente funzione:
