@@ -19,5 +19,6 @@ struct node {
  * [1, 0, 5, 2, 9, 4, 6, 8].
  */
 IntList mixAlternate(IntList *lsPtr1, IntList *lsPtr2) {
-    return NULL;  
+    // inserire qui l'implementazione iterativa
+    return NULL;
 }
