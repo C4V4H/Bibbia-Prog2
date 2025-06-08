@@ -1,6 +1,8 @@
 # Bibbia-Prog2
 raccolta di esercizi divertenti di prog2
 
+[Clicca qui per vedere le domande di teoria formattate male](DOMANDE_TEORIA.MD)
+
 Test vibecoded con copilot. potrebbero esserci degli errori.
 
 # Installation
