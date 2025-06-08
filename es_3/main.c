@@ -16,7 +16,7 @@ typedef struct {
 
 // Funzione per stampare il risultato di un test
 void printTestResult(int testNum, const char *description, int passed) {
-    printf("Test %2d: %-50s [%s]\n", 
+    printf("Test %2d: %-50s \t\t\t [%s]\n", 
            testNum, 
            description, 
            passed ? "\033[32mPASS\033[0m" : "\033[31mFAIL\033[0m");

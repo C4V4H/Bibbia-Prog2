@@ -1,12 +1,3 @@
-/*
- * ==========================================
- * PROGETTO: es_4
- * FILE: main.c
- * AUTORE: Github Copilot (Claude Sonnet 4)
- * DATA: 2025-06-08
- * ==========================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

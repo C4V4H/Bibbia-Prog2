@@ -18,4 +18,18 @@ Int Tree left;
  * (ovvero lo scambio avviene quando sinistra > destra).
  */
 void sort (IntTree tree) {
+  if (!tree || (!tree->left && !tree->right)) return;
+
+  if (!tree->left)
+    tree->left = tree->right;
+  
+  if (tree->left && tree->right && tree->left->data > tree->right->data) {
+    IntTree tmp = tree->left;
+    tree->left = tree->right;
+    tree->right = tmp;
+  }
+
+
+  sort(tree->left);
+  sort(tree->right);
 }

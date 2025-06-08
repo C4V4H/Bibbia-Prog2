@@ -14,7 +14,7 @@ typedef struct {
 
 // Funzione per stampare il risultato di un test
 void printTestResult(int testNum, const char *description, bool passed) {
-    printf("Test %2d: %-40s [%s]\n", 
+    printf("Test %2d: %-40s \t\t\t\t\t\t\t [%s]\n", 
            testNum, 
            description, 
            passed ? "\033[32mPASS\033[0m" : "\033[31mFAIL\033[0m");
@@ -75,7 +75,7 @@ int main() {
         bool result = isPalindrome(tests[i].string, tests[i].first, tests[i].last);
         bool passed = (result == tests[i].expected);
         
-        printTestResult(i + 1, tests[i].description, passed);
+        printTestResult(i + 1, tests[i].string, passed);
         
         // Stampa dettagli del test
         printf("         String: \"%s\", Range: [%d, %d], Expected: %s, Got: %s\n",

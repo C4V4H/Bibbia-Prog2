@@ -1,12 +1,3 @@
-/*
- * ==========================================
- * PROGETTO: es_6
- * FILE: main.c
- * AUTORE: Github Copilot
- * DATA: 2025-06-08
- * ==========================================
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "count.h"

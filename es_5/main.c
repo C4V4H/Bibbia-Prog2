@@ -1,12 +1,3 @@
-/*
- * ==========================================
- * PROGETTO: es_5
- * FILE: main.c
- * AUTORE: Github Copilot
- * DATA: 2025-06-08
- * ==========================================
- */
-
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
