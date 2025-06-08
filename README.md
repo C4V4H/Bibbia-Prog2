@@ -14,8 +14,7 @@ una volta clonata la repo, spostarsi nella directory di un esercizio, implementa
 per verificare l'esercizio eseguire:
 
 ```bash
-make
-make start
+make run
 
 ```
 
