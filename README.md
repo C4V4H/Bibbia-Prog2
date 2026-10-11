@@ -1,13 +1,12 @@
 # Bibbia-Prog2
+
+Esami presi dal gruppo telegram.
+ 
 raccolta di esercizi divertenti di prog2
 
 Test vibecoded con copilot. potrebbero esserci degli errori.
 
 # Installation
-
-```bash
-git clone https://github.com/C4V4H/Bibbia-Prog2
-```
 
 una volta clonata la repo, spostarsi nella directory di un esercizio, implementare la funzione nel file .c.
 
